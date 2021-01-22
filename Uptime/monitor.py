@@ -78,11 +78,11 @@ def ping(site):
 
 def get_sites():
     """Return list of unique URLs from input and sites.txt file."""
-    sites = sys.argv[1:]  # Accept sites from command line input
+    #sites = sys.argv[1:]  # Accept sites from command line input
 
     # Read in additional sites to monitor from sites.txt file
     try:
-        sites += [site.strip() for site in io.open('sites.txt', mode='r').readlines()]
+        sites = [site.strip() for site in io.open('sites.txt', mode='r').readlines()]
     except IOError:
         print (colorize("No sites.txt file found", "red"))
 
