@@ -2,7 +2,7 @@
 
 # Login email and password for account sending alerts
 sender = "22taranjd@gmail.com"
-password = "amantaran"
+password = ""
 
 # Mail domain and port for account sending alerts
 host = "smtp.gmail.com"
