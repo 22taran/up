@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # Login email and password for account sending alerts
-sender = "22taranjd@gmail.com"
+sender = ""
 password = ""
 
 # Mail domain and port for account sending alerts
